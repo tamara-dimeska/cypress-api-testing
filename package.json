@@ -1,0 +1,24 @@
+{
+  "name": "cypress-api-testing",
+  "version": "1.0.0",
+  "description": "API tests, using Cypress for Swagger Petstore Sample",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "lint": "eslint */**/*.{js,ts,tsx} --quiet --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "chai": "^4.3.4",
+    "chai-like": "^1.1.1",
+    "chai-things": "^0.2.0",
+    "cypress": "^6.7.0",
+    "date-fns": "^2.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  }
+}
