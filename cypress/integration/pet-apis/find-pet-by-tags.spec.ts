@@ -1,4 +1,4 @@
-const { PET } = require('../../constants/pet');
+import { PET } from '../../constants';
 
 PET.tags = [
   {

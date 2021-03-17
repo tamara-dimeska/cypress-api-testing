@@ -1,4 +1,4 @@
-const { PET } = require('../../constants/pet');
+import { PET } from '../../constants';
 
 describe('GET /pet/{petId} API', () => {
   beforeEach(() => {

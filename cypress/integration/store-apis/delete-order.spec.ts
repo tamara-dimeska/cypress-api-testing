@@ -1,4 +1,4 @@
-const { ORDER } = require('../../constants/order');
+import { ORDER } from '../../constants';
 
 describe('DELETE /store/order/{orderId} API', () => {
   beforeEach(() => {

@@ -1,4 +1,4 @@
-const { ORDER } = require('../../constants/order');
+import { ORDER } from '../../constants';
 
 describe('GET /store/inventory API', () => {
   beforeEach(() => {

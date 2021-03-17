@@ -1,4 +1,4 @@
-const { ORDER } = require('../../constants/order');
+import { ORDER } from '../../constants';
 
 describe('POST /store/order API', () => {
   it('should return 200 when a new order is successfully created', () => {

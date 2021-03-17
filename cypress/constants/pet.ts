@@ -1,4 +1,6 @@
-export const PET = {
+import { PetInterface } from '../types';
+
+export const PET: PetInterface = {
   id: 10,
   name: 'puppy',
   category: {

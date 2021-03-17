@@ -10,9 +10,6 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
-    "chai": "^4.3.4",
-    "chai-like": "^1.1.1",
-    "chai-things": "^0.2.0",
     "cypress": "^6.7.0",
     "date-fns": "^2.19.0",
     "eslint": "^7.22.0",
